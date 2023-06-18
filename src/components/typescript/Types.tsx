@@ -1,9 +1,9 @@
 export default function Types() {
-  const name: string = "Duarte";
-  const age: number = 20;
-  const average: number = 7;
+  const name = "Victor";
+  const age = 20;
+  const average = 7;
   const myArray: string[] = [];
-  let big1 = BigInt(9007199254740991);
+  const big1 = BigInt(9007199254740991);
 
   myArray.push(name);
   myArray.push(age.toString());
